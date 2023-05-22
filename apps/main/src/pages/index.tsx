@@ -27,7 +27,7 @@ const Home: NextPageWithLayout = ({ stickyNotFound, stickyPosts }: Props) => {
 	return (
 		<div>
 			<Head>
-				<title>TonyHe</title>
+				<title>Yanbo.</title>
 				<link rel="icon" type="image/x-icon" href="/favicon.ico" />
 				<meta name="description" content="A developer, blogger, podcaster" />
 				<meta
