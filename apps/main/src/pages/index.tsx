@@ -9,7 +9,7 @@ import getApi from "~/utilities/api"
 import NextJS13Preview from "~/components/Banners/NextJS13Preview"
 import YearOfReformation from "~/components/Banners/YearOfReformation"
 
-const GREETINGS = [" there, it's Tony", ", Tony here", ", I'm Tony"]
+const GREETINGS = [" there, it's Yanbo", ", Yanbo here", ", I'm Yanbo"]
 
 interface Props {
 	stickyNotFound: boolean
