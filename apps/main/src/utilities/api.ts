@@ -19,39 +19,39 @@ type Parameters = {
 
 const getApi = (props: Parameters) => {
 	if (props.getCate) {
-		return `https://blog.ouorz.com/wp-json/wp/v2/categories/${props.cate}`
+		return `https://yanbohon.com/wp-json/wp/v2/categories/${props.cate}`
 	}
 
 	if (props.mark) {
-		return `https://blog.ouorz.com/wp-json/tony/v1/mark/${props.mark}`
+		return `https://yanbohon.com/wp-json/tony/v1/mark/${props.mark}`
 	}
 
 	if (props.postIDs) {
-		return "https://blog.ouorz.com/wp-json/tony/v1/posts_ids"
+		return "https://yanbohon.com/wp-json/tony/v1/posts_ids"
 	}
 
 	if (props.searchIndexes) {
-		return "https://blog.ouorz.com/wp-json/tony/v1/searchIndexes"
+		return "https://yanbohon.com/wp-json/tony/v1/searchIndexes"
 	}
 
 	if (props.rssData) {
-		return "https://blog.ouorz.com/wp-json/tony/v1/rssData"
+		return "https://yanbohon.com/wp-json/tony/v1/rssData"
 	}
 
 	if (props.page) {
-		return `https://blog.ouorz.com/wp-json/wp/v2/pages/${props.page}`
+		return `https://yanbohon.com/wp-json/wp/v2/pages/${props.page}`
 	}
 
 	if (props.post) {
-		return `https://blog.ouorz.com/wp-json/wp/v2/posts/${props.post}`
+		return `https://yanbohon.com/wp-json/wp/v2/posts/${props.post}`
 	}
 
 	if (props.visit) {
-		return "https://blog.ouorz.com/wp-json/tony/v1/visit"
+		return "https://yanbohon.com/wp-json/tony/v1/visit"
 	}
 
 	if (props.sponsor) {
-		return "https://blog.ouorz.com/wp-content/themes/peg/com/data/donors.php"
+		return "https://yanbohon.com/wp-content/themes/peg/com/data/donors.php"
 	}
 
 	if (props.subs) {
@@ -59,7 +59,7 @@ const getApi = (props: Parameters) => {
 	}
 
 	if (props.count) {
-		return "https://blog.ouorz.com/wp-json/tony/v1/poststats"
+		return "https://yanbohon.com/wp-json/tony/v1/poststats"
 	}
 
 	const s = props.sticky
@@ -72,7 +72,7 @@ const getApi = (props: Parameters) => {
 	const p = props.perPage !== undefined ? `&per_page=${props.perPage}` : ""
 	const sc = props.search ? `&search=${props.search}` : ""
 
-	return `https://blog.ouorz.com/wp-json/wp/v2/posts?${s}${p}${c}${ce}${sc}`
+	return `https://yan'bo'hon/wp-json/wp/v2/posts?${s}${p}${c}${ce}${sc}`
 }
 
 export default getApi

@@ -22,7 +22,7 @@ export const LEANCLOUD_API = {
 }
 
 export const WORDPRESS_API = {
-	POSTSTATS: "https://blog.ouorz.com/wp-json/tony/v1/poststats",
+	POSTSTATS: "https://yanbohon.com/wp-json/tony/v1/poststats",
 }
 
 export const SUBSTATS_API = {
