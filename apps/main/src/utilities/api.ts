@@ -72,7 +72,7 @@ const getApi = (props: Parameters) => {
 	const p = props.perPage !== undefined ? `&per_page=${props.perPage}` : ""
 	const sc = props.search ? `&search=${props.search}` : ""
 
-	return `https://yan'bo'hon/wp-json/wp/v2/posts?${s}${p}${c}${ce}${sc}`
+	return `https://yanbohon.com/wp-json/wp/v2/posts?${s}${p}${c}${ce}${sc}`
 }
 
 export default getApi
