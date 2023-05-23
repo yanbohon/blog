@@ -154,7 +154,7 @@ function get_page_content_for_api($post) {
   $content = get_post($post['id'])->post_content;
   $content = apply_filters('the_content', $content);
   $content = str_replace(']]>', ']]&gt;', $content);
-  $content = str_replace('blog.ouorz.com', 'www.ouorz.com', $content);
+  $content = str_replace('yanbohon.com', 'b.ohvfx.com', $content);
   return $content;
 }
 
@@ -162,7 +162,7 @@ function get_post_content_for_api($post) {
   $content = get_post($post['id'])->post_content;
   $content = apply_filters('the_content', $content);
   $content = str_replace(']]>', ']]&gt;', $content);
-  $content = str_replace('blog.ouorz.com', 'www.ouorz.com', $content);
+  $content = str_replace('yanbohon.com', 'b.ohvfx.com', $content);
   $content = str_replace('<pre>', '<pre><code>', $content);
   $content = str_replace('</pre>', '</code></pre>', $content);
   return array('rendered' => $content);

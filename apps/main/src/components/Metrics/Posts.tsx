@@ -8,7 +8,7 @@ export default function PostsMetric() {
 
 	const views = format(data?.views)
 	const count = format(data?.count)
-	const link = "https://blog.ouorz.com/wp-admin"
+	const link = "https://yanbohon.com/wp-admin"
 
 	return (
 		<>
